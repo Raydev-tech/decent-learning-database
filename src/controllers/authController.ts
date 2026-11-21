@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import User from "../models/User";
+import User from "../models/User.js";
 import crypto from "crypto";
-import LoggedOutToken from "../models/LoggedOutToken";
+import LoggedOutToken from "../models/LoggedOutToken.js";
 
 const generateToken = (userId: string, role: string): string => {
   const secret = process.env.JWT_SECRET;

@@ -7,14 +7,14 @@ import {
   getMyCourses,
   updateCourse,
   deleteCourse,
-} from "../controllers/courseController";
+} from "../controllers/courseController.js";
 
 import {
   protect,
   authorize,
-} from "../middleware/authMiddleware";
+} from "../middleware/authMiddleware.js";
 
-import upload from "../middleware/uploadMiddleware";
+import upload from "../middleware/uploadMiddleware.js";
 
 const router = Router();
 

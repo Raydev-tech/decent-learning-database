@@ -1,8 +1,8 @@
 
 import { Router } from "express";
-import { getStudentDashboard } from "../controllers/dashboardController";
-import { authorize, protect } from "../middleware/authMiddleware";
-import { getMyEnrolledCourses } from "../controllers/enrollmentController";
+import { getStudentDashboard } from "../controllers/dashboardController.js";
+import { authorize, protect } from "../middleware/authMiddleware.js";
+import { getMyEnrolledCourses } from "../controllers/enrollmentController.js";
 
 const router = Router();
 

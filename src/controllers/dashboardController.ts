@@ -1,8 +1,8 @@
 
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import User from "../models/User";
-import Enrollment from "../models/Enrollment";
+import User from "../models/User.js";
+import Enrollment from "../models/Enrollment.js";
 
 export const getStudentDashboard = async (
   req: Request,

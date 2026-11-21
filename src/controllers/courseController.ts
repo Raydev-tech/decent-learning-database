@@ -5,9 +5,9 @@ import mongoose from "mongoose";
 import Course, {
   CourseLesson,
   ICourse,
-} from "../models/Course";
+} from "../models/Course.js";
 
-import cloudinary from "../config/cloudinary";
+import cloudinary from "../config/cloudinary.js";
 
 // ==========================================
 // CLOUDINARY IMAGE UPLOAD

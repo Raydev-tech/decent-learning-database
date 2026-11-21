@@ -1,7 +1,7 @@
 
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import Enrollment from "../models/Enrollment";
+import Enrollment from "../models/Enrollment.js";
 
 export const getMyEnrolledCourses = async (
   req: Request,
